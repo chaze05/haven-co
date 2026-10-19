@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+﻿import type { Metadata } from "next";
 import { Fraunces, Manrope } from "next/font/google";
 import { MotionProvider } from "@/components/providers/MotionProvider";
 import { FavoritesProvider } from "@/components/providers/FavoritesProvider";
@@ -22,12 +22,12 @@ const manrope = Manrope({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://haven-co.vercel.app"),
-  title: "Haven & Co. — Homes with a sense of place",
+  metadataBase: new URL("https://haven-co-sigma.vercel.app"),
+  title: "Haven & Co. â€” Homes with a sense of place",
   description:
     "A boutique real-estate advisory curating considered homes across BGC, Makati, Alabang, Tagaytay and Cebu.",
   openGraph: {
-    title: "Haven & Co. — Homes with a sense of place",
+    title: "Haven & Co. â€” Homes with a sense of place",
     description:
       "Curated homes across BGC, Makati, Alabang, Tagaytay and Cebu, guided by people who live where they sell.",
     type: "website",
